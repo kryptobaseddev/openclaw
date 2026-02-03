@@ -12,6 +12,8 @@ services:
       AGENTMAIL_API_KEY: ${AGENTMAIL_API_KEY}
       AGENTMAIL_EMAIL: ${AGENTMAIL_EMAIL}
       GITHUB_PAT: ${GITHUB_PAT}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
     volumes:
       - ${OPENCLAW_CONFIG_DIR}:/home/node/.openclaw
       - ${OPENCLAW_WORKSPACE_DIR}:/home/node/.openclaw/workspace
@@ -45,6 +47,8 @@ services:
       AGENTMAIL_API_KEY: ${AGENTMAIL_API_KEY}
       AGENTMAIL_EMAIL: ${AGENTMAIL_EMAIL}
       GITHUB_PAT: ${GITHUB_PAT}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
     volumes:
       - ${OPENCLAW_CONFIG_DIR}:/home/node/.openclaw
       - ${OPENCLAW_WORKSPACE_DIR}:/home/node/.openclaw/workspace
